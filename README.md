@@ -1,0 +1,3 @@
+# Out-of-Bounds Memory Access in Assembly
+
+This repository demonstrates a common error in assembly programming: out-of-bounds memory access.  The `bug.asm` file contains code that attempts to access memory using an index that may exceed the allocated memory range. This can lead to program crashes or unexpected behavior.  The `bugSolution.asm` file provides a corrected version with added bounds checking.
